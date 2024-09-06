@@ -1,0 +1,38 @@
+###
+
+POST http://localhost:4001/register/
+Content-Type: application/json
+
+{   
+    
+    "first_name":"kaira",
+    "last_name":"konidala",
+    "phone":"8688369539",
+    "email": "kaira@gmail.com",
+    "address1": "vasanthapeta",
+    "address2":"proddatur ap"
+    
+}
+
+###
+GET http://localhost:4001/user/
+
+###
+DELETE http://localhost:4001/user/21/
+
+###
+
+
+
+PUT http://localhost:4001/update/7/
+Content-Type: application/json
+
+{
+   
+   "first_name":"kaira",
+    "last_name":"konidala",
+    "phone":"8688369539",
+    "email": "kaira@gmail.com",
+    "address1": "vasanthapeta",
+    "address2":"proddatur andhara"
+}
